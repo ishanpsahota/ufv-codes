@@ -1,0 +1,7 @@
+#!/bin/bash
+
+number_users() {
+    who | wc -l
+    return 0
+}
+number_users

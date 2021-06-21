@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for color in "red yellow green"
+do
+    echo one color is $color
+done
+
+for name # "in $@" used by default
+do
+    echo $name
+done

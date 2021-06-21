@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Please enter your name: "
+read FirstName LastName
+echo Your first name is $FirstName
+echo Your last name is $LastName
