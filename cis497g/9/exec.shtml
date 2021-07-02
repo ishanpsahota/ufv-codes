@@ -1,0 +1,18 @@
+<!--#include virtual="top.html"-->
+<!--#config errmsg="Bungled again!"-->
+
+We're now going to execute 'cmd="ls -l"'':
+
+<< <!--#exec cmd="ls -l"--> >>
+
+and now /usr/www/cgi-bin/mycgi.cgi:
+
+<< <!--#exec cgi="cgi-bin/mycgi.cgi"--> >>
+
+and now the 'virtual' option:
+
+<< <!--#include virtual="cgi-bin/mycgi.cgi"--> >>
+
+That was it.
+
+<!--#include virtual="bottom.html"-->
